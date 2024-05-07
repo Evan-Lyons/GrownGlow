@@ -1,10 +1,14 @@
 package com.gng.gngbackend;
 
 public class LoginMessage {
-	
+
 	String message;
 	Boolean status;
-	
+
+	public LoginMessage(String message, Boolean status) {
+		this.message = message;
+		this.status = status;
+	}
 	public String getMessage() {
 		return message;
 	}
@@ -15,11 +19,6 @@ public class LoginMessage {
 		return status;
 	}
 	public void setStatus(Boolean status) {
-		this.status = status;
-	}
-	
-	public LoginMessage(String message, Boolean status) {
-		this.message = message;
 		this.status = status;
 	}
 	

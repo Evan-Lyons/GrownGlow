@@ -18,16 +18,16 @@ public class Question {
 	@Column(nullable = false)
 	private String questionText;
 	
-	@Column(nullable = true)
+	@Column(nullable = false)
 	private String option1;
 	
-	@Column(nullable = true)
+	@Column(nullable = false)
 	private String option2;
 	
-	@Column(nullable = true)
+	@Column(nullable = false)
 	private String option3;
 	
-	@Column(nullable = true)
+	@Column(nullable = false)
 	private String option4;
 	
 	@Column(nullable = false)
